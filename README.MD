@@ -1,0 +1,1 @@
+docker run -d -p 4900:4900 registry.cn-shenzhen.aliyuncs.com/maobuji/centos-repo:7.3.1611

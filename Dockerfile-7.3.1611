@@ -4,6 +4,8 @@ USER root
 COPY ./fileserver /opt/fileserver
 
 RUN yum install -y --downloadonly --downloaddir=/opt/fileserver/centos-repo createrepo
+RUN yum install -y --downloadonly --downloaddir=/opt/fileserver/centos-repo wget
+RUN yum install -y --downloadonly --downloaddir=/opt/fileserver/centos-repo telnet
 RUN yum install -y createrepo
 RUN createrepo -d /opt/fileserver/centos-repo
 
