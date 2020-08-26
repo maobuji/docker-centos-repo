@@ -1,4 +1,4 @@
-FROM docker pull centos:centos7.3.1611
+FROM centos:centos7.3.1611
 USER root
 WORKDIR /opt/
 COPY ../fileserver ./fileserver
