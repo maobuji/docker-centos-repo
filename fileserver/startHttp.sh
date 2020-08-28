@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /opt/fileserver/
-python -m SimpleHTTPServer 4900
+python -m SimpleHTTPServer 9998
